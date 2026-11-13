@@ -1,0 +1,180 @@
+
+
+/*===============partie principale===============*/
+
+main {
+    margin: auto;
+    width: 95%;
+    text-align: justify;
+    background-color: #111;
+    border-radius: 50px;
+}
+
+section {
+    padding: 40px;
+    margin-bottom: 3em;
+}
+
+/*===============Introduction===============*/
+
+#lesBases {
+    background-color: #222;
+    color: white;
+    border-radius: 50px 50px 25px 25px;
+}
+
+#lesBases h2 {
+    color: #fdd;
+}
+
+/*===============main et secondary===============*/
+
+#personnages {
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+
+#personnages h2 {
+    color: #d40000;
+}
+
+#main,
+#secondary {
+    border-radius: 25px;
+    height: 1450px
+}
+
+#main {
+    border: 2px solid #d40000;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+#main:hover {
+    background: radial-gradient(#111111, #400000);
+}
+
+#secondary {
+    border: 2px solid #00d400;
+    padding: 40px;
+}
+
+#secondary:hover {
+    background: radial-gradient(#111111, #004000);
+}
+
+#secondary h2 {
+    color: #00d400;
+    border-left: 50px solid #00d400;
+}
+
+/*===============archetypes===============*/
+
+#archetype {
+    padding: 40px;
+    color: white;
+}
+
+#zoneurs,
+#rushdown,
+#baitPunish,
+#neutre {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.sousArchetype {
+    margin: 10px;
+    padding: 20px;
+    max-width: 6500px;
+    flex:1;
+}
+
+h3 {
+    padding-left: 20px;
+    font-size: 2em;
+}
+
+/*=====zoneurs=====*/
+
+#titreZoneur,
+#zoneurs .sousArchetype h4 {
+    color: #23aefd
+}
+
+#titreZoneur {
+    border-left: 20px solid #23aefd;
+    padding-left: 20px;
+    font-size: 2em;
+}
+
+#zoneurs .sousArchetype {
+    border: 10px solid #23aefd;
+    border-radius: 25px;
+}
+
+#zoneurs .sousArchetype:hover {
+    background: radial-gradient(#111, #23aefd50);
+}
+
+/*=====bait & punish=====*/
+
+#titreBaitPunish,
+#baitPunish .sousArchetype h4 {
+    color: #05bc03;
+}
+
+#titreBaitPunish {
+    border-left: 20px solid #05bc03;
+}
+
+#baitPunish .sousArchetype {
+    border: 10px solid #05bc03;
+    border-radius: 25px;
+}
+
+#baitPunish .sousArchetype:hover {
+    background: radial-gradient(#111, #05bc0350);
+}
+
+/*=====rushdown=====*/
+
+#titreRushdown,
+#rushdown .sousArchetype h4 {
+    color: #f90115
+}
+
+#titreRushdown {
+    border-left: 20px solid #f90115;
+}
+
+#rushdown .sousArchetype {
+
+    border: 10px solid #f90115;
+    border-radius: 25px;
+}
+
+#rushdown .sousArchetype:hover {
+    background: radial-gradient(#111, #f9011550);
+}
+
+/*=====neutre=====*/
+
+#titreNeutre,
+#neutre .sousArchetype h4 {
+    color: #786283;
+}
+
+#titreNeutre {
+    border-left: 20px solid #786283;
+}
+
+#neutre .sousArchetype {
+    border: 10px solid #786283;
+    border-radius: 25px;
+}
+
+#neutre .sousArchetype:hover {
+    background: radial-gradient(#111, #78628350);
+}

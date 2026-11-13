@@ -1,0 +1,64 @@
+/*===============Tous les tableaux===============*/
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 300px;
+    width: 100%
+}
+
+caption {
+    font-size: 3em;
+    margin-bottom: 150px;
+    font-family: "DejaVu Sans Mono", serif;
+}
+
+td,
+th,
+.ligneTable{
+    padding: 25px;
+    flex: 1;          /*Chaque case fait la même taille*/
+}
+
+tr {
+    display: flex;
+}
+
+/*=====vocabulaire attaque=====*/
+
+#vocAttaque .ligneTable,
+#vocAttaque th,
+#vocAttaque td {
+    border: 5px solid #f90115;
+}
+
+#vocAttaque .ligneTable,
+#vocAttaque th {
+    background-color: #990115;
+}
+
+/*=====vocabulaire situations=====*/
+
+#vocSituation .ligneTable,
+#vocSituation th,
+#vocSituation td {
+    border: 5px solid #23aefd;
+}
+
+#vocSituation .ligneTable,
+#vocSituation th {
+    background-color: #235e9d;
+}
+
+/*=====autre vocabulaire=====*/
+
+#autreVoc .ligneTable,
+#autreVoc th,
+#autreVoc td {
+    border:5px solid #05bc03;
+}
+
+#autreVoc .ligneTable,
+#autreVoc th {
+    background-color: #056c03;
+}

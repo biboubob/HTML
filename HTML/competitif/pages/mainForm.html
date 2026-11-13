@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Pedro Filipe da Silva Neves"/>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../pressSmash.css"/>
+    <link rel="stylesheet" href="styles/mainForm.css"/>
+</head>
+<body>
+<header id="hautDePage">
+    <h1><a href="../../accueilGen.html"><img class="imgEnTete" src="../../logo.png" alt="logo Press Smash" title="Press Smash"/></a></h1>
+    <nav>
+        <a href="../../casual/accueilCas.html">Casual</a>
+        <a href="../accueilComp.html" class="categorieActif">Compétitif</a>
+    </nav>
+</header>
+<main>
+    <h2>Découvrez votre main</h2>
+    <form>
+        <fieldset>
+            <legend>Archetype</legend>
+            <div id="grosArchetype">
+                <label for="archetype">Choisissez un archetype global</label>
+                <select name="archetype" id="archetype" required>
+                    <option value="" disabled selected hidden> - Choisissez votre archetype - </option>
+
+                    <option value="zoner"> - Zoneur - </option>
+                    <option value="baitPunish"> - Bait & Punish - </option>
+                    <option value="rushdown"> - Rushdown - </option>
+                    <option value="neutre"> - Neutral - </option>
+
+                </select>
+            </div>
+            <div id="sousArchetypeForm">
+                <label for="sousArchetype">Choisissez un sous archetype</label>
+                <select name="sousArchetype" id="sousArchetype">
+                    <option value="" disabled selected hidden> - Choisissez un sous-archetype - </option>
+
+                    <!-- sous-archetypes de zoner-->
+
+                    <option value="pureZoning" class="zone"> - Pure-Zoning - </option>
+                    <option value="turtle" class="zone"> - Turtle - </option>
+                    <option value="trapper" class="zone"> - Trapper - </option>
+                    <option value="spacing" class="zone"> - Spacing - </option>
+
+                    <!-- sous-archetypes de bait & punish -->
+
+                    <option value="grappler" class="bait"> - Grappler - </option>
+                    <option value="setup" class="bait"> - Set-up - </option>
+                    <option value="allRounder" class="bait"> - All-rounders - </option>
+                    <option value="trickster" class="bait"> - Tricksters - </option>
+
+                    <!-- sous-archetypes de rushdown -->
+
+                    <option value="pureRushdown" class="rushdown"> - Pure Rushdown - </option>
+                    <option value="zoneBreaker" class="rushdown"> - Zone Breaker - </option>
+                    <option value="mixUp" class="rushdown"> - Mix-up - </option>
+                    <option value="footsies" class="rushdown"> - Footsies - </option>
+
+                    <!-- sous-archetypes de neutre -->
+
+                    <option value="variability" class="neutre"> - Variabilty - </option>
+                    <option value="glassCanon" class="neutre"> - Glass Canon - </option>
+                    <option value="hitRun" class="neutre"> - Hit & Run - </option>
+                    <option value="neutralBeast" class="neutre"> - Neutral Beast - </option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Difficulté</legend>
+            <p>Choisissez le niveau de difficuté technique</p>
+            <div class="diffFlex">
+                div
+                <label for="diffT1">1</label>
+                <input type="radio" name="diffT" value="1" id="diffT1">
+                <label for="diffT2">2</label>
+
+            </div>
+        </fieldset>
+    </form>
+</main>
+<footer>
+    <a href="../../logo.png"><img class="imgPied" src="../../logo.png" alt="logo Press Smash" title="Press Smash"/></a>
+    <div>
+        <a href="#hautDePage">Retour vers le haut de la page</a>
+        <a href="../accueilComp.html">Accueil - compétition</a>
+    </div>
+</footer>
+</body>
+</html>

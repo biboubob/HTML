@@ -1,0 +1,17 @@
+header {
+    margin-bottom: 8em;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-size: 6em;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}

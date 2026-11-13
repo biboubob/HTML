@@ -1,0 +1,50 @@
+section {
+    display: grid;
+    grid-template-rows: 850px 850px 850px;
+    grid-template-columns: 900px 900px 900px;
+    gap: 50px;
+}
+
+.stage {
+    padding: 20px;
+    border: 10px solid white;
+    border-radius: 50px;
+    background-color: #222222;
+}
+
+.stage:hover {
+    transform: translateY(-15px);
+    transition-duration: 500ms;
+}
+
+section a {
+    position: relative;
+    display: block;
+    width: 840px;
+    height: 471px;
+}
+
+section a div {
+    font-size: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color:white;
+    background: #00000099;
+    display: none;
+}
+
+section a:hover div {
+    display: flex;
+}
+
+section img {
+    width: 840px;
+    height: 471px;
+}
+

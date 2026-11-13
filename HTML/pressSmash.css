@@ -1,0 +1,123 @@
+/*Pedro Filipe Da Silva Neves*/
+
+/*===============Corps du texte===============*/
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    margin: auto;
+    max-width: 2800px;
+    min-width: 1100px;
+}
+
+/*===============en-tête et pied de page===============*/
+
+header,
+footer {
+    margin: auto;
+}
+
+/*===============pied de page===============*/
+
+footer,
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+footer div {
+    border-collapse: collapse;
+}
+
+footer div a {
+    color: white;
+    font-size: 1.5em;
+    border: 3px solid white;
+    padding: 20px;
+    text-decoration-line: none;
+}
+
+footer img {
+    height: 100px
+}
+
+/*===============navigation en-tête===============*/
+
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 3em;
+}
+
+header nav a {
+    font-size: 3em;
+    flex: 1;
+    padding: 20px;
+    text-decoration-line: none;
+    border-bottom: 3px solid #88888860;
+    color: #88888860
+}
+
+header nav a:hover {
+    color: #888888;
+    transition: 500ms;
+}
+
+.categorieActif {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.categorieActif:hover {
+    color: white;
+}
+
+/*===============liste à coté===============*/
+
+aside {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    width: 300px;
+    z-index: 1;
+}
+
+
+
+aside nav {
+    display: flex;
+    border-collapse: collapse;
+    flex-flow: column nowrap;
+}
+
+aside nav a{
+    flex: 1;
+    font-size: 1.5em;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: #888888;
+    color: white;
+    text-decoration-line: none;
+}
+
+aside nav a:hover {
+    background-color: #d40000;
+    transition: 500ms;
+}
+
+/*===============titres===============*/
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: "broadway", "copperplate", sans-serif;
+    font-size: 4em;
+    border-left: 50px solid #d40000;
+    padding-left: 50px;
+}
